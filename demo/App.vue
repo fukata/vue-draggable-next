@@ -32,6 +32,7 @@ import { defineComponent, defineAsyncComponent, ref } from 'vue'
 
 const tabs = [
   { path: 'basic', name: 'Simple', component: 'basic' },
+  { path: 'table', name: 'Table', component: 'table-component' },
   { path: 'clone', name: 'Clone', component: 'clone' },
   {
     path: 'transition',

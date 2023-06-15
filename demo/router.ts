@@ -1,6 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 
 import BasicComponent from './components/basic.vue'
+import TableComponent from './components/table-component.vue'
 import CloneComponent from './components/clone.vue'
 import TransitionComponent from './components/transition-group.vue'
 import NestedComponent from './components/nested-component.vue'
@@ -16,6 +17,11 @@ const router = createRouter({
       name: 'basic',
       path: '/',
       component: BasicComponent,
+    },
+    {
+      name: 'table',
+      path: '/table',
+      component: TableComponent,
     },
     {
       name: 'clone',
